@@ -51,11 +51,6 @@ func main() {
 	}
 force:
 
-	if *cpuAff == "" && !*force {
-		fmt.Println("-k not provided; nothing to do")
-		os.Exit(1)
-	}
-
 	if *verbose {
 		v = true
 	}
