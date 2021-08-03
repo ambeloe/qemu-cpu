@@ -17,5 +17,4 @@ Usage of qemu-cpu:
 	-pidfile string  
 		path to a file containing the pid of the qemu process  
 	-v	
-		print additional information during run  ```
-	
+		print additional information during run  
